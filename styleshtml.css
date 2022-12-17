@@ -134,6 +134,7 @@ body {
 
 }
 .btn{
+    grid-area:header;
     background: #040505;
     background-image: -webkit-linear-gradient(top, #040505, #61676b);
     background-image: -moz-linear-gradient(top, #040505, #61676b);
