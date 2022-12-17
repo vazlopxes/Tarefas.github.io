@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+.grid-container>* {
+
+    text-align: center;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    grid-area: header;
+    background-color: rgb(124, 122, 122);
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    font-family: 'Calligraffitti', cursive;
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    text-shadow: 0.1em 0.1em 0.2em black
+
+}
+
+.logo {
+    background-image: url(imagenes/descarga.jpg);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: right;
+
+}
+
+
+.main {
+
+    grid-area: main;
+    box-shadow: 0 0px 0px 0px white, 0 0px 0px 0px white, 12px 0 15px -4px black, -12px 0 15px -4px black;
+    background-image: url(imagenes/biblio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-block: 50px;
+    background-color:rgb(124, 122, 122);
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 300ms ease;
+    text-shadow: 0.1em 0.1em 0.2em black
+
+}
+
+
+.card:hover {
+    background-color: rgb(168, 160, 160);
+    width: 500px;
+    height: 300px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.card a {
+    text-decoration: none;
+    font-family: 'Calligraffitti', cursive;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+    font-size: xx-large;
+
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template:
+
+        "header header header" 100px
+        "navbar main sidebar" auto
+        "footer footer footer" 100px/
+        200px auto 200px;
+
+
+
+}
