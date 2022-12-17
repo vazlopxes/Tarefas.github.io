@@ -17,12 +17,9 @@ body {
     position: sticky;
     top: 0;
     margin-bottom: 10px;
-   
-
-}
-.header div{
-    text-shadow: 0.1em 0.1em 0.2em black;
+     text-shadow: 0.1em 0.1em 0.2em black;
     -webkit-text-stroke: 1.5px black;
+
 }
 
 .main {
