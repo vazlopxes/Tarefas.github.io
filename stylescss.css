@@ -17,7 +17,7 @@ body {
     position: sticky;
     top: 0;
     margin-bottom: 10px;
-     text-shadow: 0.1em 0.1em 0.2em black;
+    text-shadow: 0.1em 0.1em 0.2em black;
     -webkit-text-stroke: 1.5px black;
 
 }
@@ -90,7 +90,7 @@ body {
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     background-image: url(imagenes/CSS3_logo.svg.png);
     background-size: cover;
- background-position: -65px;
+    background-position: -65px;
     background-repeat: no-repeat;
 }
 
@@ -99,59 +99,56 @@ body {
 .preview2:hover {
     background-image: url(imagenes/css2.png);
     background-size: cover;
-    background-position:  10px 0px;
+    background-position: 10px 0px;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 
-.footer {
+.head {
     border-bottom: 2px solid black;
     width: 100%;
     height: 10%;
     border-radius: 20px 20px 0px 0px;
-    background-color:rgb(40, 56, 235);
+    background-color: rgb(40, 56, 235);
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-.footer a {
+.head a {
     text-decoration: none;
     color: white;
     -webkit-text-stroke: 1px black;
     font-size: xx-large;
-    font-family: 'Calligraffitti', cursive; 
+    font-family: 'Calligraffitti', cursive;
     text-shadow: 0.1em 0.1em 0.2em black
 }
 
-.footer:hover {
-    background-color:rgb(99, 109, 227);
+.head:hover {
+    background-color: rgb(99, 109, 227);
 
 }
 
 
-.btn{
-    color:white;
-    background-color:blak;
-    float:left;
-     -webkit-border-radius: 25;
+.btn {
+    color: white;
+    background-color: white;
+    float: left;
+    -webkit-border-radius: 25;
     -moz-border-radius: 25;
     border-radius: 25px;
-    font-size: 22px;
     padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    text-align: center;
     float: left;
+    font-size: medium;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
+
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-  }
+    background-color: rgb(99, 109, 227);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.4);
+
+}
 
 
 .grid-container {
