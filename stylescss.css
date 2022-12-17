@@ -132,22 +132,8 @@ body {
 
 
 .btn{
-    background: #040505;
-    background-image: -webkit-linear-gradient(top, #040505, #61676b);
-    background-image: -moz-linear-gradient(top, #040505, #61676b);
-    background-image: -o-linear-gradient(top, #040505, #61676b);
-    background-image: linear-gradient(to bottom, #040505, #61676b);
-    -webkit-border-radius: 25;
-    -moz-border-radius: 25;
-    border-radius: 25px;
-    font-family: Georgia;
-    color: #f7eff7;
-    font-size: 22px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    text-shadow:none;
-    float: left;
+    color:white;
+    background-color:blak;
 }
 .btn:hover {
     background: #3cb0fd;
