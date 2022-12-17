@@ -146,6 +146,7 @@ body {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     text-align: center;
+    text-shadow:none;
     float: left;
 }
 .btn:hover {
